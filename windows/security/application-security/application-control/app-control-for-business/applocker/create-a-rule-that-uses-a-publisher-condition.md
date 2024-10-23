@@ -10,7 +10,7 @@ ms.date: 09/11/2024
 
 This article for IT professionals shows how to create an AppLocker rule with a publisher condition.
 
-You can use publisher conditions only for files that are digitally signed. The publisher condition identifies an app based on its digital signature and extended attributes. The digital signature contains information about the company that created the app (the publisher). The extended attributes, which are obtained from the binary resource, might contain the name of the product and the version number of the app binary. The publisher might be a software development company, such as Microsoft, or the information technology department of your organization.
+You can only use publishing conditions for files that are digitally signed and whose intermediary CA certificates are available in the computers local store. The publisher condition identifies an app based on its digital signature and extended attributes. The digital signature contains information about the company that created the app (the publisher). The extended attributes, which are obtained from the binary resource, might contain the name of the product and the version number of the app binary. The publisher might be a software development company, such as Microsoft, or the information technology department of your organization.
 
 Packaged app rules always use publisher conditions. For info about creating a packaged app rule, see [Create a rule for packaged apps](create-a-rule-for-packaged-apps.md).
 
